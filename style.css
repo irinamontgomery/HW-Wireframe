@@ -1,13 +1,86 @@
-.show {
-    display: block;
+body {
+    font-family: Arial, "helvetica Neue", sans-serif;
+    color: #777;
+    background: #777;
+    font-size: 18px;
+    width: 960px;
+    margin: 20px 500px 20px 500px;
 }
 
-.hide {
-    display: none;
-    height: 0;
-    width: 0;
+Header {
+    background: #EBEBEB;
+    text-align: center;
+    padding: 10px;
+
 }
 
-.stupid {
-    color: #000;
+nav {
+    background: #EBEBEB;
+    width: 960px;
+    text-align: center;
+    padding: 10px 0 10px 0px;
+    margin: 15px 0px 25px 0px
+}
+
+li {
+    display: inline-block;
+    width: 960px;
+    text-align: center;
+}
+
+section {
+    background: #EBEBEB;
+    width: 495px;
+    float: left;
+    padding: 25px;
+    margin: 25 px;
+    text-align: center;
+}
+
+#aside {
+    background: #EBEBEB;
+    width: 315px;
+    float: left;
+    padding: 24px 48px 225px 25px;
+    border 0;
+    margin: 0px 0px 0px 25px;
+    text-align: center;
+}
+
+footer {
+    background: #EBEBEB;
+    width: 960px;
+    float: left;
+    padding: 0px 0px 25px 0px;
+    margin: 20px 0px 75px 0px;
+    text-align: center;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    padding: 25px;
+    margin: 25px 30px 25px 25px;
+}
+
+h1,
+h2,
+h3 {
+    color: #777;
+    background: #ebebeb;
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+}
+
+.article {
+    color: #ebebeb;
+    background: #777;
+}
+
+.headings {
+    color: #777;
+    background: #ebebeb;
 }
